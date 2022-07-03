@@ -103,4 +103,8 @@ Recall:
   high risk: .91
 
 ## Summary: 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+Each of these models show the dangers of over-fitting or under-fitting the data and the importance of testing the data to ensure you get reliable results for your analysis. When determining the risk of default for particular customers, it is safe to assume that the number of customers who have not defaulted are vastly larger than those that have. In this instance, the AdaBoost Classifier is the best model to use as it provides the highest Balance Accuracy score. The least reliable model would be the Under-sampling model that returned Balance Accuracy  score of .51. 
+
+Additionally, the AdaBoost Classifier model has a better Precision Score than the other models. The Random Forrest is the only other model that does not have a high risk of .01 and low risk of 1. This means that every model caught 100% of the low-risk borrowers, but did a pretty poor job of identifying 100% of the high-risk borrowers. This is a common risk when you are training a model to identify a small subset of individuals within a much larger data set. You should probably scale the high-risk borrowers so they are over represented in the testing phase so your model has more exposure to them. This will result in a better model that is better able to better identify high-risk borrowers. 
+
+
