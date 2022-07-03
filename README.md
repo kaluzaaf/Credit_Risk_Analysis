@@ -75,32 +75,32 @@ Recall:
 
 ### Balanced Random Forest Classifier
 
+![Balanced Random Forrest Classifier](https://user-images.githubusercontent.com/100163289/177046674-4014a596-28af-4c2f-8740-b90345226716.png)
 
 
-
-Balanced Accuracy:
+Balanced Accuracy: .77
 
 Precision:
-  low risk:
-  high risk:
+  low risk: 1
+  high risk: .03
   
 Recall:
-  low risk: 
-  high risk: 
+  low risk: .88
+  high risk: .68
 
 ### Easy Ensemble AdaBoost ClassifierBalanced Accuracy: 
 
+![AdaBoost Classifier](https://user-images.githubusercontent.com/100163289/177053034-58dd3775-8ba5-40f6-816f-1ac829a512af.png)
 
-
-Balanced Accuracy:
+Balanced Accuracy: .93
 
 Precision:
-  low risk:
-  high risk:
+  low risk: 1
+  high risk: .07
   
 Recall:
-  low risk: 
-  high risk: 
+  low risk: .94
+  high risk: .91
 
 ## Summary: 
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
